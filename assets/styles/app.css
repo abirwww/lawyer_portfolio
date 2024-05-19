@@ -773,7 +773,7 @@ nav ul li a.active, nav ul li a:hover {
 }
 
 #counter {
-  background-image: url(/assets/images/counter/counter_bg.png);
+  background-image: url("/assets/images/counter/counter_bg.png");
 }
 #counter .counter_content {
   padding: 50px 0px;
