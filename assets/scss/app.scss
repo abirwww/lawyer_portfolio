@@ -1,12 +1,17 @@
-@import "./vendors/reset";
+@import "./vendors/fonts";
 @import "./vendors/variables";
+@import "./mixins/media";
+@import "./vendors/reset";
+
 
 @import "./components/buttons";
 @import "./components/common_heading";
 
-@import "./layouts/footer";
+@import "./layouts/container";
 @import "./layouts/header";
 @import "./layouts/navbar";
+@import "./layouts/footer";
+
 
 @import "./views/about";
 @import "./views/contact";
