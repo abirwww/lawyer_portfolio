@@ -267,6 +267,7 @@ nav ul {
   display: flex;
   gap: 55px;
   justify-content: center;
+  z-index: 9;
 }
 nav ul li {
   list-style: none;
@@ -441,6 +442,7 @@ nav ul li a.active, nav ul li a:hover {
   font-size: 76px;
   line-height: 108px;
   color: #094B72;
+  font-weight: 700;
 }
 @media (min-width: 992px) and (max-width: 1199.9px) {
   #banner .container .banner_content .banner_details .top h1 {
@@ -567,7 +569,8 @@ nav ul li a.active, nav ul li a:hover {
 }
 #banner .container .banner_content .banner_details .sponsor_list {
   display: grid;
-  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
   margin-top: 20px;
 }
 @media (min-width: 0px) and (max-width: 575.9px) {

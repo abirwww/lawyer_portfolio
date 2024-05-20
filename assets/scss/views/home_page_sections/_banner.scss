@@ -45,6 +45,7 @@
                         font-size: 76px;
                         line-height: 108px;
                         color: #094B72;
+                        font-weight: 700;
 
                         @include lg(){
                             font-size: 69px;
@@ -161,7 +162,8 @@
                 .sponsor_list{
                     display: grid;
                     // grid-template-columns: 105px 105px;
-                    gap: 20px;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 0px;
                     margin-top: 20px;
 
                     @include xs(){
