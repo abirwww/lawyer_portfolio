@@ -67,8 +67,9 @@ ol, li {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  font-size: 22px;
+  font-size: 14px;
   line-height: 32px;
+  font-weight: 100;
 }
 
 p {
@@ -98,6 +99,7 @@ h1 {
 h2 {
   font-size: 48px;
   line-height: 58px;
+  font-family: var(--poppin_regular);
 }
 @media (min-width: 0px) and (max-width: 575.9px) {
   h2 {
@@ -187,6 +189,18 @@ header .header_body {
     align-items: flex-end;
     width: 423px;
   }
+}
+header .header_body .logo h4 {
+  border-radius: 50%;
+  background-color: var(--brand-light);
+  color: rgb(255, 255, 255);
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+  font-size: 25px;
 }
 header .header_body .logo img {
   width: 95px;
@@ -342,6 +356,8 @@ nav ul li a.active, nav ul li a:hover {
 #top_footer .top_footer_content .footer_links {
   width: 180px;
   color: white;
+  font-size: 20px;
+  font-weight: 500;
 }
 @media (min-width: 0px) and (max-width: 575.9px) {
   #top_footer .top_footer_content .footer_links {
@@ -878,6 +894,9 @@ nav ul li a.active, nav ul li a:hover {
 #complex_question .complex_question_content .left .another_class h2 {
   color: red;
 }
+#complex_question .complex_question_content .left .common_heading h2 {
+  font-family: var(--poppin_regular);
+}
 #complex_question .complex_question_content .left .action_btns .action_btn {
   display: inline-flex;
   align-items: center;
@@ -887,6 +906,7 @@ nav ul li a.active, nav ul li a:hover {
   padding: 5px 18px;
   color: var(--white);
   text-align: center;
+  font-size: 16px;
 }
 #complex_question .complex_question_content .right .img {
   height: 100%;
